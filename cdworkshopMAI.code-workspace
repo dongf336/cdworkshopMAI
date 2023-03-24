@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Desktop/MAI pictures"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cdworkshopMAI"
+	}
+}

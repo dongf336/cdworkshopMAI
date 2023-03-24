@@ -1,28 +1,61 @@
-body {
+body{
   font-family: sans-serif;
-  background: lightgray;
+  counter-reset: page;
+  font-size: 8.5pt;
+  font-family: 'Silkscreen', cursive;
+
 }
 
 h2 {
   break-before: page;
 }
 
+p{
+  font-size: 10pt;
+  color: #997483;
+}
+
 @media print {
   body {
-    background: white;
+    background-color: #E2E6BD;
   }
 }
 
 @page {
-  size: 5in 8in;
-  margin-top: 0.25in;
+  size: 5in 8in; 
+  margin-top: 0.25in; 
   margin-bottom: 0.5in;
 }
+
 @page:left {
   margin-left: 0.25in;
   margin-right: 1in;
+  @bottom-left {
+    content: counter(page);
+  }
+  @bottom-right {
+    content: "Fang Dong";
+  }
 }
 @page:right {
   margin-left: 1in;
   margin-right: 0.25in;
+  @bottom-left {
+    content: "title";
+  }
+@bottom-right {
+  content: counter(page);
 }
+}
+
+.two-col {
+  column-count: 2;
+  column-gap: 2em;
+}
+
+img {
+  width: 110%;
+  border-radius: 5%;
+  display:block;
+}
+
