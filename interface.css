@@ -5,7 +5,7 @@
     --color-background: whitesmoke;
     --color-pageSheet: #cfcfcf;
     --color-pageBox: violet;
-    --color-paper: #E2E6BD;
+    --color-paper: #F4F2DD;
     --color-marginBox: transparent;
     --pagedjs-crop-color: black;
     --pagedjs-crop-shadow: white;
@@ -50,7 +50,7 @@
     }
 
     .pagedjs_left_page{
-        z-index: 20;
+        z-index: 10;
         width: calc(var(--pagedjs-bleed-left) + var(--pagedjs-pagebox-width))!important;
     }
 

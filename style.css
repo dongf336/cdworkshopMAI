@@ -5,9 +5,14 @@ body{
   font-family: 'Silkscreen', cursive;
 
 }
+h1{
+  text-align: center;
 
+}
 h2 {
   break-before: page;
+  text-align: center;
+
 }
 
 p{
@@ -17,7 +22,7 @@ p{
 
 @media print {
   body {
-    background-color: #E2E6BD;
+    background-color: #F4F2DD;
   }
 }
 
@@ -41,7 +46,7 @@ p{
   margin-left: 1in;
   margin-right: 0.25in;
   @bottom-left {
-    content: "title";
+    content: "MAI MAI MAI!";
   }
 @bottom-right {
   content: counter(page);
@@ -55,7 +60,6 @@ p{
 
 img {
   width: 110%;
-  border-radius: 5%;
   display:block;
 }
 
