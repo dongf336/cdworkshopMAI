@@ -12,7 +12,6 @@ h1{
 h2 {
   break-before: page;
   text-align: center;
-
 }
 
 p{
@@ -60,6 +59,6 @@ p{
 
 img {
   width: 110%;
-  display:block;
+position:center; 
 }
 
