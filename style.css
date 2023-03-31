@@ -3,6 +3,7 @@ body{
   counter-reset: page;
   font-size: 8.5pt;
   font-family: 'Silkscreen', cursive;
+  background-image: url(grid-png-image-0.png);
 
 }
 h1{
@@ -36,7 +37,7 @@ p{
   margin-right: 1in;
   @bottom-left {
     content: counter(page);
-  }
+    }
   @bottom-right {
     content: "Fang Dong";
   }
@@ -57,8 +58,105 @@ p{
   column-gap: 2em;
 }
 
-img {
+
+
+.mai{
   width: 110%;
 position:center; 
 }
 
+.star{
+  width: 60%;
+  position:absolute;
+  top: 50%;
+  left: 70%;
+}
+
+.crossstar{
+  width: 110%;
+  position:absolute;
+bottom: 10%;
+right: 10%;
+}
+
+.connor{
+  width: 80%;
+  position:absolute;
+top: 60%;
+left: 50%;
+}
+
+.digi{
+  width: 70%;
+  position:absolute;
+  bottom: 50%;
+  right: 60%;
+}
+
+.smokingbear{
+  width: 80%;
+  position:absolute;
+bottom: 55%;
+left: 50%;
+}
+
+.maii{
+  width: 120%;
+  position:absolute;
+right: 1%;
+top: 25%;
+}
+
+.aww{
+  width: 60%;
+  position:absolute;
+  bottom: 10%;
+  right: 70%;
+}
+
+.heartguy{
+  width: 80%;
+  position:absolute;
+top: 30%;
+right: 45%;
+}
+
+.dig{
+  width: 70%;
+  position:absolute;
+bottom: 55%;
+right: 50%;
+}
+
+.icecream{
+  width: 85%;
+  position:absolute;
+top: 10%;
+bottom: 50%;
+}
+.butters{
+  width: 90%;
+  position:absolute;
+top: 50%;
+right: 50%;
+}
+.nervous{
+  width: 85%;
+  position:absolute;
+bottom: 60%;
+right: 45%;
+}
+
+.guystar{
+  width: 110%;
+  position:absolute;
+bottom: 60%;
+right: 45%;
+}
+
+.garfield{
+  width: 90%;
+  position:absolute;
+top: 50%;
+right: 50%;
+}
