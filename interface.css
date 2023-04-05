@@ -16,6 +16,7 @@
 @media screen, pagedjs-ignore {
     body {
         background-color: var(--color-background);
+
     }
 
 
@@ -102,17 +103,8 @@
         box-shadow: 0 0 0 1px inset var(--color-marginBox);
     }
 
-    img
-        position: absolute;
-        top:500px;
-        left: 400px;
-        height: 400px;
-        transform: translate(-50%,-50%) scale(0.5) rotate(10deg);
-       z-index: -1;
-          pointer-events: none;
-      
--------------------- */
-    /* uncomment this part for recto/verso book : ------------------------------------ */
+    
+          /* uncomment this part for recto/verso book : ------------------------------------ */
 
     /*
     .pagedjs_pages {
