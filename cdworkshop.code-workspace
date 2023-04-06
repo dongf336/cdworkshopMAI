@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Desktop/photoscans"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "demo 2"
+	}
+}

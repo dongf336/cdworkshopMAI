@@ -5,7 +5,7 @@
     --color-background: whitesmoke;
     --color-pageSheet: #cfcfcf;
     --color-pageBox: violet;
-    --color-paper: #F4F2DD;
+    --color-paper: white;
     --color-marginBox: transparent;
     --pagedjs-crop-color: black;
     --pagedjs-crop-shadow: white;
@@ -16,10 +16,7 @@
 @media screen, pagedjs-ignore {
     body {
         background-color: var(--color-background);
-
     }
-
-
 
     .pagedjs_pages {
         display: flex;
@@ -36,13 +33,10 @@
         flex-shrink: 0;
         flex-grow: 0;
         margin-top: 10mm;
-        background-image: url(grid-png-image-0.png);
-
     }
 
     .pagedjs_first_page {
         margin-left: var(--pagedjs-width);
-
     }
 
     .pagedjs_page:last-of-type {
@@ -54,9 +48,8 @@
     }
 
     .pagedjs_left_page{
-        z-index: 0;
+        z-index: 20;
         width: calc(var(--pagedjs-bleed-left) + var(--pagedjs-pagebox-width))!important;
-
     }
 
     .pagedjs_left_page .pagedjs_bleed-right .pagedjs_marks-crop {
@@ -68,14 +61,9 @@
     } 
 
     .pagedjs_right_page{
-        z-index: 0;
+        z-index: 10;
         position: relative;
-        background-image: url(icon22.png);
         left: calc(var(--pagedjs-bleed-left)*-1);
-        background-image: url(grid-png-image-0.png);
-
-        
-
     }
 
     /* show the margin-box */
@@ -103,8 +91,7 @@
         box-shadow: 0 0 0 1px inset var(--color-marginBox);
     }
 
-    
-          /* uncomment this part for recto/verso book : ------------------------------------ */
+    /* uncomment this part for recto/verso book : ------------------------------------ */
 
     /*
     .pagedjs_pages {

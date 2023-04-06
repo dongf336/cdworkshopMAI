@@ -1,190 +1,239 @@
-body{
+body {
   font-family: sans-serif;
-  counter-reset: page;
-  font-size: 8.5pt;
-  font-family: 'Silkscreen', cursive;
-  background: #AFAAB9;
-  background-image: url(grid-png-image-0.png);
-
+  background: lightgray;
 }
-h1{
-  text-align: center;
-  font-size: 20pt;
 
-}
 h2 {
   break-before: page;
-  text-align: center;
-}
-
-p{
-  font-size: 8pt;
-  color: #997483;
 }
 
 @media print {
   body {
-    background-color: #F4F2DD;
+    background: white;
   }
 }
 
 @page {
-  size: 4.75in 8in; 
-  margin-top: 0.25in; 
+  size: 4.75in 8in;
+  margin-top: 0.25in;
   margin-bottom: 0.5in;
 }
-
 @page:left {
   margin-left: 0.25in;
   margin-right: 0.75in;
-  @bottom-left {
-    content: counter(page);
-    }
-  @bottom-right {
-    content: "Fang Dong";
-  }
 }
 @page:right {
   margin-left: 0.75in;
   margin-right: 0.25in;
-  @bottom-left {
-    content: "MAI MAI MAI!";
-  }
-@bottom-right {
-  content: counter(page);
-}
 }
 
-.two-col {
-  column-count: 2;
-  column-gap: 2em;
+.title{
+  width:100%;
+  position: absolute;
+  top: 15%;
+  right: 10%;
 }
-
-
-
-.mai{
-  width: 110%;
-position:center; 
+.house{
+  width:100%;
+  position: absolute;
+  top: 28%;
+  left: 5%;
 }
+.housetext{
+  position: absolute;
+  text-align:justify;
+  font-weight: lighter;
+  top: 60%;
+  left: 20px;
+  font-size: 14px;
+  font-family: 'Mynerve', cursive;
 
-.star{
-  width: 60%;
-  position:absolute;
+}
+.bunny{
+  width:100%;
+  position: absolute;
+  top: 28%;
+  left: 5%;
+}
+.bunnytext{
+  position: absolute;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 14px;
+  font-family: 'Mansalva', cursive;
+
+
+}
+.dad{
+  width:90%;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+.dadtext{
+  position: absolute;
+  text-align:center;
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: 'Reenie Beanie', cursive;
+
+}
+.six{
+  width: 90%;
+  position: absolute;
+
+}
+.sixtext{
+  position: absolute;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 9px;
+  font-family: 'Mynerve', cursive;
+
+}
+.twelve{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+.twelvetext{
+  position: absolute;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 12px;
+  top: 60%;
+  font-family: 'Mansalva', cursive;
+
+}
+.body{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+.bodytext{
+  position: absolute;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 13px;
+  top: 60%;
+  font-family: 'Reenie Beanie', cursive;
+
+}
+.seventext{
+  position: absolute;
+  width: 100%;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 17px;
   top: 50%;
-  left: 60%;
-}
+  left: 20%;
+  font-family: 'Reenie Beanie', cursive;
 
-.crossstar{
-  width: 110%;
-  position:absolute;
-bottom: 10%;
-right: 10%;
 }
-
-.connor{
-  width: 80%;
-  position:absolute;
-top: 60%;
-left: 50%;
+.seven{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 5%;
 }
-
-.digi{
-  width: 70%;
-  position:absolute;
-  bottom: 50%;
-  right: 50%;
+.please{
+width: 100%;
+position: absolute;
+left: 3%;
 }
+.pleasetext{
+  position: absolute;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 16px;
+  top: 60%;
+  font-family: 'Mynerve', cursive;
 
-.smokingbear{
-  width: 80%;
-  position:absolute;
-bottom: 55%;
-left: 40%;
 }
-
-.maii{
-  width: 130%;
-  position:absolute;
-  left: -20%;
-  top: -5%;
+.childhood{
+  width: 150%;
+position: absolute;
+right:-5%;
+top: 40%;
 }
+.childhoodtext{
+  position: absolute;
+  width: 70px;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 12px;
+  top: 5%;
+  font-family: 'Mansalva', cursive;
 
-.aww{
-  width: 60%;
-  position:absolute;
-  bottom: 10%;
-  right: 70%;
 }
-
-.heartguy{
-  width: 80%;
-  position:absolute;
-top: 30%;
-right: 45%;
+.white:hover{
+background-color: white;
+color: white;
 }
-
-.dig{
-  width: 70%;
-  position:absolute;
-bottom: 55%;
-right: 50%;
+.glass{
+  width: 140%;
+  position: absolute;
+right:-5%;
+top: 40%;
 }
+.glasstext{
+  position: absolute;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 11px;
+  top: 60%;
+  font-family: 'Reenie Beanie', cursive;
 
-.icecream{
-  width: 85%;
-  position:absolute;
+}
+.mother{
+  width: 160%;
+  position: absolute;
+right:-5%;
 top: 10%;
-bottom: 50%;
 }
-.butters{
-  width: 90%;
-  position:absolute;
-top: 50%;
-right: 50%;
-}
-.nervous{
-  width: 85%;
-  position:absolute;
-bottom: 60%;
-right: 45%;
-}
+.mothertext{
+  position: absolute;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 11px;
+  top: 10%;
+  font-family: 'Mansalva', cursive;
 
-.guystar{
-  width: 110%;
-  position:absolute;
-bottom: 60%;
-right: 45%;
 }
-
-.garfield{
-  width: 90%;
-  position:absolute;
-top: 50%;
-right: 50%;
+.music{
+  width: 100%;
+  position: absolute;
+  right: 5%;
 }
-.gif1{
-  width: 80%;
-  position:absolute;
-bottom: 40%;
-right: 45%;
+.musictext{
+  position: absolute;
+  width: 80px;
+  text-align:justify;
+  font-weight: lighter;
+  font-size: 12px;
+  top: 5%;
+  font-family: 'Mynerve', cursive;
+
 }
+.remember{
+  position: absolute; 
+  width: 120%;
+  bottom: 40%;
 
-  .cup{
-    width: 85%;
-  position:absolute;
-bottom: 60%;
-right: 45%;
-  }
+}
+.remembertext{
+  position: absolute;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 15px;
+  bottom: 20%;
+  font-family: 'Reenie Beanie', cursive;
 
-  .maiball{
-    width: 80%;
-    position:absolute;
-  bottom: 10%;
-  right: 45%;
-  }
-  .bearguy{
-    width: 70%;
-    position:absolute;
-  bottom: 10%;
-  right: 70%;
-  }
+}
+.end{
+  width:120%;
+  position: absolute;
+
+}
