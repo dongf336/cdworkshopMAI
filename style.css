@@ -17,15 +17,28 @@ h2 {
   size: 4.75in 8in;
   margin-top: 0.25in;
   margin-bottom: 0.5in;
+ bleed: 0.25in;
+ marks: crop;
 }
 @page:left {
   margin-left: 0.25in;
   margin-right: 0.75in;
+  @bottom-left {
+    content: counter(page);
+    font-family: 'Reenie Beanie', cursive;
+font-size: 20px;
+  }
 }
 @page:right {
   margin-left: 0.75in;
   margin-right: 0.25in;
+  @bottom-right {
+    content: counter(page);
+    font-family: 'Reenie Beanie', cursive;
+font-size: 20px;
+  }
 }
+
 
 .title{
   width:100%;
@@ -41,54 +54,58 @@ h2 {
 }
 .housetext{
   position: absolute;
+  width: 190px;
   text-align:justify;
   font-weight: lighter;
-  top: 60%;
+  top: 64%;
   left: 20px;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Mynerve', cursive;
 
 }
 .bunny{
-  width:100%;
+  width:140%;
   position: absolute;
   top: 28%;
-  left: 5%;
+  right: 10%;
 }
 .bunnytext{
   position: absolute;
   text-align:justify;
   font-weight: lighter;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Mansalva', cursive;
+  top: 18%;
 
 
 }
 .dad{
-  width:90%;
+  width:70%;
   position: absolute;
   top: 20%;
-  left: 5%;
+  left: 20%;
 }
 .dadtext{
   position: absolute;
   text-align:center;
   font-weight: lighter;
-  font-size: 16px;
+  font-size: 19px;
   font-family: 'Reenie Beanie', cursive;
-
 }
 .six{
-  width: 90%;
+  width: 140%;
   position: absolute;
+  left: -5%;
+
 
 }
 .sixtext{
   position: absolute;
   text-align:justify;
   font-weight: lighter;
-  font-size: 9px;
-  font-family: 'Mynerve', cursive;
+  font-size: 15px;
+  font-family: 'Reenie Beanie', cursive;
+  bottom: 20%;
 
 }
 .twelve{
@@ -100,24 +117,26 @@ h2 {
 .twelvetext{
   position: absolute;
   text-align:justify;
+  width: 90%;
   font-weight: lighter;
-  font-size: 12px;
+  font-size: 10px;
   top: 60%;
+  left: 10%;
   font-family: 'Mansalva', cursive;
 
 }
 .body{
-  width: 100%;
+  width: 160%;
   position: absolute;
-  top: 30%;
-  left: 5%;
+  top: -5%;
+right: -10%;
 }
 .bodytext{
   position: absolute;
   text-align:justify;
   font-weight: lighter;
   font-size: 13px;
-  top: 60%;
+  top: 65%;
   font-family: 'Reenie Beanie', cursive;
 
 }
@@ -132,31 +151,36 @@ h2 {
   font-family: 'Reenie Beanie', cursive;
 
 }
+.red:hover{
+color: #973232;
+}
 .seven{
-  width: 100%;
+  width: 110%;
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 5%;
 }
 .please{
-width: 100%;
+width: 110%;
 position: absolute;
-left: 3%;
+left: 10%;
+top: 20%;
 }
 .pleasetext{
   position: absolute;
   text-align:justify;
   font-weight: lighter;
-  font-size: 16px;
+  font-size: 13px;
+  left:10%;
   top: 60%;
-  font-family: 'Mynerve', cursive;
+  font-family: 'Nothing You Could Do', cursive;
 
 }
 .childhood{
   width: 150%;
 position: absolute;
 right:-5%;
-top: 40%;
+top: 2%;
 }
 .childhoodtext{
   position: absolute;
@@ -173,39 +197,44 @@ background-color: white;
 color: white;
 }
 .glass{
-  width: 140%;
+  width: 110%;
   position: absolute;
-right:-5%;
-top: 40%;
+left: 1%;
+top: 30%;
 }
 .glasstext{
   position: absolute;
   text-align:justify;
+  width: 140px;
   font-weight: lighter;
-  font-size: 11px;
-  top: 60%;
+  font-size: 13px;
+  top: 70%;
   font-family: 'Reenie Beanie', cursive;
 
 }
 .mother{
   width: 160%;
   position: absolute;
-right:-5%;
-top: 10%;
+right:-10%;
+top: 20%;
 }
 .mothertext{
   position: absolute;
+  width: 130px;
   text-align:justify;
   font-weight: lighter;
-  font-size: 11px;
+  font-size: 13px;
   top: 10%;
+  left: -5%;
   font-family: 'Mansalva', cursive;
 
 }
 .music{
-  width: 100%;
+  width: 84%;
   position: absolute;
-  right: 5%;
+  right: 10%;
+  top: -5%;
+
 }
 .musictext{
   position: absolute;
@@ -213,7 +242,8 @@ top: 10%;
   text-align:justify;
   font-weight: lighter;
   font-size: 12px;
-  top: 5%;
+  top: 40%;
+  right: -5%;
   font-family: 'Mynerve', cursive;
 
 }
@@ -225,15 +255,26 @@ top: 10%;
 }
 .remembertext{
   position: absolute;
-  text-align: center;
+  text-align: right;
   font-weight: lighter;
-  font-size: 15px;
-  bottom: 20%;
+  font-size: 16px;
+  bottom: 15%;
   font-family: 'Reenie Beanie', cursive;
 
 }
 .end{
   width:120%;
   position: absolute;
-
+right: -3%;
+top: 10%;
 }
+.endtext{
+  position: absolute;
+  text-align:center;
+  font-weight: lighter;
+  font-family: 'Mansalva', cursive;
+font-size: 12px;
+bottom: 14%;
+right: 5%;
+}
+
